@@ -3,7 +3,10 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
+    "@expo-google-fonts/inter": "^0.4.2",
+    "@expo-google-fonts/montserrat": "^0.4.2",
     "@expo/ui": "~57.0.23",
+    "@tanstack/react-query": "^5.104.2",
     "expo": "~57.0.28",
     "expo-constants": "~57.0.21",
     "expo-device": "~57.0.2",
@@ -29,10 +32,13 @@
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "~57.0.2",
     "typescript": "~6.0.3"
   },
   "scripts": {
     "start": "expo start",
+    "dev": "expo start --watch",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
